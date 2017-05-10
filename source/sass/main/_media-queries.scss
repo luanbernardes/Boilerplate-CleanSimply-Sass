@@ -1,0 +1,42 @@
+/* Maximuns */
+
+@mixin xs() {
+	@media(max-width:767px){@content}
+}
+
+@mixin sm() {
+	@media(max-width:991px){@content}
+}
+
+@mixin md(){
+	@media(max-width:1199px){@content}
+}
+
+@mixin lg(){
+	@media(min-width:1200px){@content}
+}
+
+/* Minimuns */
+
+@mixin min-sm() {
+	@media(min-width:768px){@content}
+}
+
+@mixin min-md() {
+	@media(min-width:992px){@content}
+}
+
+/* Custom */
+
+@mixin mds() {
+	@media(min-width:992px) and (max-width:1050px){@content}
+}
+
+
+
+
+
+
+
+
+
